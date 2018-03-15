@@ -4,7 +4,6 @@ import universe.BigBang;
 import universe.Universe;
 import static org.junit.Assert.assertEquals;
 
-
 public class TestUniverse {
     private BigBang god;
 
@@ -29,7 +28,6 @@ public class TestUniverse {
         assertEquals(18, universe1.getNumberOfGalaxies());
         assertEquals("Hawkins Universe", universe2.getName());
         assertEquals(18, universe2.getNumberOfGalaxies());
-
     }
 
     @Test
@@ -40,5 +38,4 @@ public class TestUniverse {
         assertEquals("Yellow Space", universe2.getName());
         assertEquals("Yellow Space", universe1.getName());
     }
-
 }
